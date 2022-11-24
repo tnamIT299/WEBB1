@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Mobilestore</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style4.css">
+    <script src="script4.js"></script>
+</head>
+
+<body>
+
+    <!-- begin header -->
+    <header>
+        <div class="top">
+            <input class="button" type="text" name="text"><button type="">Search</button>
+        </div>
+        <div class="bottom">
+            <ul>
+                <li>Register</li>
+                <li>Login</li>
+                <li>Checkout</li>
+                <li id="col-1">Delivery</li>
+                <li>MyAccount</li>
+                <li id="dif"><span id="col-2">shopping cart :</span> noitems</li>
+            </ul>
+
+        </div>
+    </header>
+
+    <!-- end header -->
+
+    <!-- begin center -->
+    <div class="content wrap">
+        <!-- begin left grid items -->
+        <div class="leftgrid">
+            <ul>
+                <li>
+                    <img src="images/m1.jpg" class="items" alt="" />
+                    <div>Product-Name</div>
+                </li>
+                <li>
+                    <img src="images/m2.jpg" class="items" alt="" />
+                    <div>Product-Name</div>
+                </li>
+                <li>
+                    <img src="images/m3.jpg" class="items" alt="" />
+                    <div>Product-Name</div>
+                </li>
+                <li>
+                    <img src="images/m4.jpg" class="items" alt="" />
+                    <div>Product-Name</div>
+                </li>
+
+            </ul>
+        </div>
+        <!-- end left grid items -->
+        <!-- begin right slider bar -->
+        <div class="rightsider">
+            <h4>Comment</h4>
+            <form action="" name="search">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email"> <br>
+                <label for="com">Comment</label>
+                <textarea name="com" id="com" cols="30" rows="5"></textarea> <br>
+                <label for="rate">Rating</label>
+                <input type="text" name="rate" id="rate" size="5"> <br>
+                <input type="submit" value="send" name="submit" id="submit" onclick="validate()">
+            </form>
+
+        </div>
+        <!-- end right slider bar -->
+    </div>
+    <!-- end center -->
+    <!-- begin footer -->
+    <div class="footer wrap">
+        <p><a href="#">Home</a> <span>|</span> <a href="#">Support</a> <span>|</span> <a href="#">Account</a> <span>|</span> <a href="#">Store</a> <span>|</span> <a href="#">Contact</a></p>
+    </div>
+    <!-- end footer -->
+
+</body>
+
+</html>
